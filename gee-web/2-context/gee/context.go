@@ -1,0 +1,71 @@
+package gee
+
+import (
+	"encoding/json"
+	"fmt"
+	"net/http"
+)
+
+type H map[string]any
+
+type Context struct {
+	Wrtier http.ResponseWriter
+	Req    *http.Request
+
+	Path   string
+	Method string
+	//响应的状态码
+	StatusCode int
+}
+
+func newContext(w http.ResponseWriter, req *http.Request) *Context {
+	return &Context{
+		Wrtier: w,
+		Req:    req,
+		Path:   req.URL.Path,
+		Method: req.Method,
+	}
+}
+
+func (c *Context) PostForm(key string) string {
+	return c.Req.FormValue(key)
+}
+
+func (c *Context) Query(key string) string {
+	return c.Req.URL.Query().Get(key)
+}
+
+func (c *Context) Status(code int) {
+	c.StatusCode = code
+	c.Wrtier.WriteHeader(code)
+}
+
+func (c *Context) SetHeader(key string, value string) {
+	c.Wrtier.Header().Set(key, value)
+}
+
+func (c *Context) String(code int, format string, values ...any) {
+	c.SetHeader("Content-Type", "text/plain")
+	c.Status(code)
+	c.Wrtier.Write([]byte(fmt.Sprintf(format, values...)))
+}
+
+func (c *Context) JSON(code int, obj any) {
+	c.SetHeader("Content-Type", "application/json")
+	c.Status(code)
+	encoder := json.NewEncoder(c.Wrtier)
+	if err := encoder.Encode(obj); err != nil {
+		http.Error(c.Wrtier, err.Error(), 500)
+	}
+}
+
+func (c *Context) Data(code int, data []byte) {
+	c.Status(code)
+	c.Wrtier.Write(data)
+}
+
+func (c *Context) HTML(code int, html string) {
+	c.SetHeader("Content-Type", "text/html")
+	c.Status(code)
+	c.Wrtier.Write([]byte(html))
+}
