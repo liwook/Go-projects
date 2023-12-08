@@ -31,7 +31,7 @@ func NewGroup(name string, cacheBytes int64, getter Getter) *Group {
 // 获取 Group 对象的方法
 func GetGroup(name string) *Group {
 	rwMu.RLock()
-	defer rwMu.Unlock()
+	defer rwMu.RUnlock()
 	g := groups[name]
 	return g
 }
