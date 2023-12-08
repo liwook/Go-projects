@@ -17,22 +17,22 @@ var loadCounts = make(map[string]int, len(db))
 
 func main() {
 	//传函数入参
-	cache := cache.NewGroup("scores", 2<<10, cache.GetterFunc(funcCbGet))
+	geecache := cache.NewGroup("scores", 2<<10, cache.GetterFunc(funcCbGet))
 	//传结构体入参，也可以
 	// cbGet := &search{}
-	// cache := cache.NewGroup("scores", 2<<10, cbGet)
+	// geecache := cache.NewGroup("scores", 2<<10, cbGet)
 
 	for k, v := range db {
-		if view, err := cache.Get(k); err != nil || view.String() != v {
+		if view, err := geecache.Get(k); err != nil || view.String() != v {
 			fmt.Println("failed to get value of Tom")
 		}
 
-		if _, err := cache.Get(k); err != nil || loadCounts[k] > 1 {
+		if _, err := geecache.Get(k); err != nil || loadCounts[k] > 1 {
 			fmt.Printf("cache %s miss", k)
 		}
 	}
 
-	if view, err := cache.Get("unknown"); err == nil {
+	if view, err := geecache.Get("unknown"); err == nil {
 		fmt.Printf("the value of unknow should be empty, but %s got", view)
 	} else {
 		fmt.Println(err)
