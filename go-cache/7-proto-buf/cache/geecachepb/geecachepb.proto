@@ -1,0 +1,21 @@
+syntax="proto3";
+
+package geecachepb;
+
+// ./是go文件生成的路径，geecachepb是该go文件的包名
+option go_package = "./;geecachepb";
+
+message Request{
+    string group=1;
+    string key=2;
+}
+
+message Response{
+    bytes value=1;
+}
+
+//service是RPC的，这里没有使用，注释掉没有影响
+//定义服务(Services)，如果消息类型是用来远程通信的(RPC)，在 .proto文件中定义RPC服务接口
+// service GroupCache{
+//     rpc Get(Request) returns(Response);
+// }
