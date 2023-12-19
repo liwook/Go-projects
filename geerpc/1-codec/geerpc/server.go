@@ -66,12 +66,13 @@ func (server *Server) ServeConn(conn io.ReadWriteCloser) {
 	}
 
 	//目前只实现了gob编解码
-	if opt.CodecType != codec.GobType {
+	f := codec.NewCodeFuncMap[opt.CodecType]
+	if f == nil {
 		log.Printf("rpc server: invalid codec type %s", opt.CodecType)
 		return
 	}
-	srv := codec.NewGobCodec(conn)
-	server.servCode(srv)
+
+	server.servCode(f(conn))
 }
 
 var invalidRequest = struct{}{}
