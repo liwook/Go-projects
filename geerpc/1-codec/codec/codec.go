@@ -13,9 +13,18 @@ type Codec interface {
 	Close() error
 }
 
+type NewCodecFunc func(io.ReadWriteCloser) Codec
+
 type CodeType string
 
 const (
 	GobType  CodeType = "application/gob"
 	JsonType CodeType = "application/json" // not implemented
 )
+
+var NewCodeFuncMap map[CodeType]NewCodecFunc
+
+func init() {
+	NewCodeFuncMap = make(map[CodeType]NewCodecFunc)
+	NewCodeFuncMap[GobType] = NewGobCodec
+}
