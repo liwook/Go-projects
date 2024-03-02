@@ -1,0 +1,9 @@
+{"level":"INFO","file":"D:/code/gWork/log/sulog/cmd/main.go:38","func":"main.main","message":"log with json"}
+{"level":"INFO","file":"D:/code/gWork/log/sulog/cmd/main.go:36","func":"main.main","message":"log with json"}
+{"level":"INFO","file":"D:/code/gWork/log/sulog/cmd/main.go:37","func":"main.main","message":"lihi 111"}
+{"level":"INFO","file":"D:/code/gWork/log/sulog/cmd/main.go:36","func":"main.main","message":"log with json"}
+{"level":"INFO","file":"D:/code/gWork/log/sulog/cmd/main.go:37","func":"main.main","message":"lihi 111"}
+{"message":"log with json","level":"INFO","file":"D:/code/gWork/log/sulog/cmd/main.go:36","func":"main.main"}
+{"file":"D:/code/gWork/log/sulog/cmd/main.go:37","func":"main.main","message":"lihi 111","level":"INFO"}
+{"func":"main.main","message":"log with json","level":"INFO","file":"D:/code/gWork/log/sulog/cmd/main.go:30"}
+{"file":"D:/code/gWork/log/sulog/cmd/main.go:31","func":"main.main","message":"lihi 111","level":"INFO"}
