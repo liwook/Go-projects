@@ -1,0 +1,120 @@
+{"time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:43","func":"main.main","message":"log with json","level":"INFO"}
+{"name":"li","level":"DEBUG","time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:45","func":"main.main","message":"hello"}
+{"level":"INFO","time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:46","func":"main.main","message":"hello","name":"li","age":"23"}
+{"file":"D:/code/gWork/log/sulogV2/cmd/main.go:48","func":"main.main","message":"ok go home","addr":"zhongguo","name":"abcv","level":"INFO","time":"2024-01-26T17:25:53+08:00"}
+{"time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello","num":"0","level":"INFO"}
+{"time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello","num":"1","level":"INFO"}
+{"num":"2","level":"INFO","time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello"}
+{"time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello","num":"3","level":"INFO"}
+{"num":"4","level":"INFO","time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello"}
+{"time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello","num":"5","level":"INFO"}
+{"message":"Hello","num":"6","level":"INFO","time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main"}
+{"message":"go func Hello","test_num":"20000","level":"INFO","time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main.func1"}
+{"test_num":"20001","level":"INFO","time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main.func1","message":"go func Hello"}
+{"func":"main.main.func1","message":"go func Hello","test_num":"20002","level":"INFO","time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54"}
+{"message":"go func Hello","test_num":"20003","level":"INFO","time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main.func1"}
+{"time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello","num":"7","level":"INFO"}
+{"func":"main.main.func1","message":"go func Hello","test_num":"20004","level":"INFO","time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54"}
+{"num":"8","level":"INFO","time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello"}
+{"time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main.func1","message":"go func Hello","test_num":"20005","level":"INFO"}
+{"num":"9","level":"INFO","time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello"}
+{"time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main.func1","message":"go func Hello","test_num":"20006","level":"INFO"}
+{"time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main.func1","message":"go func Hello","test_num":"20007","level":"INFO"}
+{"time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main.func1","message":"go func Hello","test_num":"20008","level":"INFO"}
+{"test_num":"20009","level":"INFO","time":"2024-01-26T17:25:53+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main.func1","message":"go func Hello"}
+{"level":"INFO","time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:43","func":"main.main","message":"log with json"}
+{"time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:45","func":"main.main","message":"hello","name":"li","level":"DEBUG"}
+{"name":"li","age":"23","level":"INFO","time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:46","func":"main.main","message":"hello"}
+{"name":"abcv","addr":"zhongguo","level":"INFO","time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:48","func":"main.main","message":"ok go home"}
+{"num":"0","level":"INFO","time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello"}
+{"num":"1","level":"INFO","time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello"}
+{"message":"Hello","num":"2","level":"INFO","time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main"}
+{"num":"3","level":"INFO","time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello"}
+{"num":"4","level":"INFO","time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello"}
+{"time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello","num":"5","level":"INFO"}
+{"level":"INFO","time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello","num":"6"}
+{"message":"go func Hello","test_num":"20000","level":"INFO","time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main.func1"}
+{"file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello","num":"7","level":"INFO","time":"2024-01-26T17:30:10+08:00"}
+{"test_num":"20001","level":"INFO","time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main.func1","message":"go func Hello"}
+{"level":"INFO","time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello","num":"8"}
+{"level":"INFO","time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main.func1","message":"go func Hello","test_num":"20002"}
+{"time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main","message":"Hello","num":"9","level":"INFO"}
+{"file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main.func1","message":"go func Hello","test_num":"20003","level":"INFO","time":"2024-01-26T17:30:10+08:00"}
+{"time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main.func1","message":"go func Hello","test_num":"20004","level":"INFO"}
+{"func":"main.main.func1","message":"go func Hello","test_num":"20005","level":"INFO","time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54"}
+{"file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main.func1","message":"go func Hello","test_num":"20006","level":"INFO","time":"2024-01-26T17:30:10+08:00"}
+{"file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main.func1","message":"go func Hello","test_num":"20007","level":"INFO","time":"2024-01-26T17:30:10+08:00"}
+{"time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main.func1","message":"go func Hello","test_num":"20008","level":"INFO"}
+{"level":"INFO","time":"2024-01-26T17:30:10+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main.func1","message":"go func Hello","test_num":"20009"}
+{"message":"log with json","level":"INFO","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:49","func":"main.main"}
+{"message":"hello","name":"li","level":"DEBUG","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:51","func":"main.main"}
+{"name":"li","age":"23","level":"INFO","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:52","func":"main.main","message":"hello"}
+{"addr":"zhongguo","level":"INFO","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:54","func":"main.main","message":"ok go home","name":"abcv"}
+{"func":"main.main","message":"Hello","num":"0","level":"INFO","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:66"}
+{"num":"1","level":"INFO","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:66","func":"main.main","message":"Hello"}
+{"file":"D:/code/gWork/log/sulogV2/cmd/main.go:66","func":"main.main","message":"Hello","num":"2","level":"INFO","time":"2024-01-26T17:38:06+08:00"}
+{"file":"D:/code/gWork/log/sulogV2/cmd/main.go:66","func":"main.main","message":"Hello","num":"3","level":"INFO","time":"2024-01-26T17:38:06+08:00"}
+{"time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:66","func":"main.main","message":"Hello","num":"4","level":"INFO"}
+{"func":"main.main","message":"Hello","num":"5","level":"INFO","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:66"}
+{"message":"Hello","num":"6","level":"INFO","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:66","func":"main.main"}
+{"func":"main.main.func1","message":"go func Hello","test_num":"20000","level":"INFO","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60"}
+{"num":"7","level":"INFO","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:66","func":"main.main","message":"Hello"}
+{"time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main.func1","message":"go func Hello","test_num":"20001","level":"INFO"}
+{"message":"Hello","num":"8","level":"INFO","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:66","func":"main.main"}
+{"test_num":"20002","level":"INFO","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main.func1","message":"go func Hello"}
+{"file":"D:/code/gWork/log/sulogV2/cmd/main.go:66","func":"main.main","message":"Hello","num":"9","level":"INFO","time":"2024-01-26T17:38:06+08:00"}
+{"level":"INFO","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main.func1","message":"go func Hello","test_num":"20003"}
+{"level":"INFO","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main.func1","message":"go func Hello","test_num":"20004"}
+{"test_num":"20005","level":"INFO","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main.func1","message":"go func Hello"}
+{"func":"main.main.func1","message":"go func Hello","test_num":"20006","level":"INFO","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60"}
+{"time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main.func1","message":"go func Hello","test_num":"20007","level":"INFO"}
+{"test_num":"20008","level":"INFO","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main.func1","message":"go func Hello"}
+{"test_num":"20009","level":"INFO","time":"2024-01-26T17:38:06+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:60","func":"main.main.func1","message":"go func Hello"}
+{"time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:61","func":"main.main","message":"log with json","level":"INFO"}
+{"message":"hello","name":"li","level":"DEBUG","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:63","func":"main.main"}
+{"name":"li","age":"23","level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:64","func":"main.main","message":"hello"}
+{"name":"abcv","level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:66","func":"main.main","message":"ok go home","addr":"zhongguo"}
+{"level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:78","func":"main.main","message":"Hello","num":"0"}
+{"num":"1","level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:78","func":"main.main","message":"Hello"}
+{"func":"main.main","message":"Hello","num":"2","level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:78"}
+{"test_num":"20000","level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:72","func":"main.main.func1","message":"go func Hello"}
+{"file":"D:/code/gWork/log/sulogV2/cmd/main.go:72","func":"main.main.func1","message":"go func Hello","test_num":"20001","level":"INFO","time":"2024-01-26T18:06:18+08:00"}
+{"level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:72","func":"main.main.func1","message":"go func Hello","test_num":"20002"}
+{"level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:72","func":"main.main.func1","message":"go func Hello","test_num":"20003"}
+{"level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:72","func":"main.main.func1","message":"go func Hello","test_num":"20004"}
+{"test_num":"20005","level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:72","func":"main.main.func1","message":"go func Hello"}
+{"message":"go func Hello","test_num":"20006","level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:72","func":"main.main.func1"}
+{"level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:72","func":"main.main.func1","message":"go func Hello","test_num":"20007"}
+{"func":"main.main.func1","message":"go func Hello","test_num":"20008","level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:72"}
+{"func":"main.main.func1","message":"go func Hello","test_num":"20009","level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:72"}
+{"time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:78","func":"main.main","message":"Hello","num":"3","level":"INFO"}
+{"func":"main.main","message":"Hello","num":"4","level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:78"}
+{"num":"5","level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:78","func":"main.main","message":"Hello"}
+{"num":"6","level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:78","func":"main.main","message":"Hello"}
+{"num":"7","level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:78","func":"main.main","message":"Hello"}
+{"func":"main.main","message":"Hello","num":"8","level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:78"}
+{"num":"9","level":"INFO","time":"2024-01-26T18:06:18+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:78","func":"main.main","message":"Hello"}
+{"time":"2024-01-29T11:31:20+08:00","level":"INFO","file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","func":"main.main","message":"log with json"}
+{"func":"main.main","fields.level":"INFO","time":"2024-01-29T11:31:20+08:00","message":"hello","fields.time":"2024-01-29T11:31:20+08:00","level":"DEBUG","file":"D:/code/gWork/log/sulogV2/cmd/main.go:67","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","fields.func":"main.main","name":"li"}
+{"name":"li","message":"hello","age":"23","fields.time":"2024-01-29T11:31:20+08:00","level":"INFO","fields.level":"INFO","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","fields.func":"main.main","time":"2024-01-29T11:31:20+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:68","func":"main.main"}
+{"fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","fields.time":"2024-01-29T11:31:20+08:00","fields.level":"INFO","level":"INFO","file":"D:/code/gWork/log/sulogV2/cmd/main.go:70","func":"main.main","time":"2024-01-29T11:31:20+08:00","message":"ok go home","name":"abcv","addr":"zhongguo","fields.func":"main.main"}
+{"fields.func":"main.main","time":"2024-01-29T11:31:20+08:00","message":"Hello","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","level":"INFO","file":"D:/code/gWork/log/sulogV2/cmd/main.go:82","func":"main.main","fields.level":"INFO","num":"0","fields.time":"2024-01-29T11:31:20+08:00"}
+{"time":"2024-01-29T11:31:20+08:00","num":"1","level":"INFO","message":"Hello","fields.time":"2024-01-29T11:31:20+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:82","func":"main.main","fields.level":"INFO","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","fields.func":"main.main"}
+{"fields.level":"INFO","time":"2024-01-29T11:31:20+08:00","num":"2","file":"D:/code/gWork/log/sulogV2/cmd/main.go:82","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","fields.func":"main.main","message":"Hello","fields.time":"2024-01-29T11:31:20+08:00","level":"INFO","func":"main.main"}
+{"fields.time":"2024-01-29T11:31:20+08:00","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","level":"INFO","func":"main.main","message":"Hello","fields.level":"INFO","time":"2024-01-29T11:31:20+08:00","num":"3","fields.func":"main.main","file":"D:/code/gWork/log/sulogV2/cmd/main.go:82"}
+{"time":"2024-01-29T11:31:20+08:00","fields.time":"2024-01-29T11:31:20+08:00","fields.level":"INFO","fields.func":"main.main","func":"main.main","message":"Hello","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","num":"4","level":"INFO","file":"D:/code/gWork/log/sulogV2/cmd/main.go:82"}
+{"fields.level":"INFO","time":"2024-01-29T11:31:20+08:00","level":"INFO","file":"D:/code/gWork/log/sulogV2/cmd/main.go:82","func":"main.main","message":"Hello","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","fields.time":"2024-01-29T11:31:20+08:00","num":"5","fields.func":"main.main"}
+{"fields.func":"main.main","message":"Hello","num":"6","level":"INFO","file":"D:/code/gWork/log/sulogV2/cmd/main.go:82","fields.level":"INFO","time":"2024-01-29T11:31:20+08:00","fields.time":"2024-01-29T11:31:20+08:00","func":"main.main","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65"}
+{"time":"2024-01-29T11:31:20+08:00","fields.func":"main.main","func":"main.main","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","fields.time":"2024-01-29T11:31:20+08:00","message":"Hello","num":"7","fields.level":"INFO","level":"INFO","file":"D:/code/gWork/log/sulogV2/cmd/main.go:82"}
+{"fields.time":"2024-01-29T11:31:20+08:00","func":"main.main","time":"2024-01-29T11:31:20+08:00","fields.level":"INFO","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","fields.func":"main.main","message":"Hello","num":"8","level":"INFO","file":"D:/code/gWork/log/sulogV2/cmd/main.go:82"}
+{"fields.level":"INFO","message":"Hello","level":"INFO","file":"D:/code/gWork/log/sulogV2/cmd/main.go:82","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","fields.func":"main.main","time":"2024-01-29T11:31:20+08:00","num":"9","fields.time":"2024-01-29T11:31:20+08:00","func":"main.main"}
+{"file":"D:/code/gWork/log/sulogV2/cmd/main.go:76","func":"main.main.func1","message":"go func Hello","test_num":"20000","time":"2024-01-29T11:31:20+08:00","level":"INFO"}
+{"level":"INFO","func":"main.main.func1","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","fields.func":"main.main","message":"go func Hello","test_num":"20001","fields.time":"2024-01-29T11:31:20+08:00","time":"2024-01-29T11:31:20+08:00","fields.level":"INFO","file":"D:/code/gWork/log/sulogV2/cmd/main.go:76"}
+{"fields.func":"main.main","fields.time":"2024-01-29T11:31:20+08:00","test_num":"20002","level":"INFO","func":"main.main.func1","time":"2024-01-29T11:31:20+08:00","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","message":"go func Hello","fields.level":"INFO","file":"D:/code/gWork/log/sulogV2/cmd/main.go:76"}
+{"file":"D:/code/gWork/log/sulogV2/cmd/main.go:76","func":"main.main.func1","fields.level":"INFO","fields.func":"main.main","time":"2024-01-29T11:31:20+08:00","fields.time":"2024-01-29T11:31:20+08:00","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","message":"go func Hello","test_num":"20003","level":"INFO"}
+{"fields.time":"2024-01-29T11:31:20+08:00","level":"INFO","fields.func":"main.main","fields.level":"INFO","time":"2024-01-29T11:31:20+08:00","test_num":"20004","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","file":"D:/code/gWork/log/sulogV2/cmd/main.go:76","func":"main.main.func1","message":"go func Hello"}
+{"time":"2024-01-29T11:31:20+08:00","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","fields.time":"2024-01-29T11:31:20+08:00","test_num":"20005","level":"INFO","fields.func":"main.main","message":"go func Hello","fields.level":"INFO","file":"D:/code/gWork/log/sulogV2/cmd/main.go:76","func":"main.main.func1"}
+{"fields.time":"2024-01-29T11:31:20+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:76","fields.level":"INFO","fields.func":"main.main","message":"go func Hello","test_num":"20006","level":"INFO","func":"main.main.func1","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","time":"2024-01-29T11:31:20+08:00"}
+{"fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","fields.func":"main.main","time":"2024-01-29T11:31:20+08:00","test_num":"20007","func":"main.main.func1","fields.level":"INFO","message":"go func Hello","fields.time":"2024-01-29T11:31:20+08:00","level":"INFO","file":"D:/code/gWork/log/sulogV2/cmd/main.go:76"}
+{"test_num":"20008","level":"INFO","message":"go func Hello","fields.func":"main.main","time":"2024-01-29T11:31:20+08:00","fields.time":"2024-01-29T11:31:20+08:00","file":"D:/code/gWork/log/sulogV2/cmd/main.go:76","func":"main.main.func1","fields.level":"INFO","fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65"}
+{"fields.file":"D:/code/gWork/log/sulogV2/cmd/main.go:65","fields.time":"2024-01-29T11:31:20+08:00","fields.func":"main.main","level":"INFO","file":"D:/code/gWork/log/sulogV2/cmd/main.go:76","message":"go func Hello","fields.level":"INFO","func":"main.main.func1","time":"2024-01-29T11:31:20+08:00","test_num":"20009"}
